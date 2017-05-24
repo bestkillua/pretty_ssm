@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pretty.ssm.dao.UserDao">
+
+	<select id="queryByPhone" resultType="User">
+		SELECT *
+		FROM _user
+		WHERE 
+		user_phone= #{userPhone} limit 1
+	</select>
+	
+	<select id="queryAll" resultType="User">
+		SELECT *
+		FROM _user
+		ORDER BY create_time DESC
+		limit #{offset},#{limit}
+	</select>
+
+</mapper>
