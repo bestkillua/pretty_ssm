@@ -1,7 +1,7 @@
 这个教程主要包括以下部分：
 1，基础SSM(Spring+SpringMVC+Mybatis)搭建教程
 2，集成Redis
-3，Redis Sentinel高可用方案（基于docker）
+3，[Redis Sentinel高可用方案（基于docker）](http://blog.csdn.net/KilluaZoldyck/article/details/72720953)
 4，Druid
 
 该教程写完可以当作一个脚手架以后直接使用，很方便，同时会讲解一下缓存方案，为下面搭建一个分布式高可用的系统先做点铺垫，源码以及全部上传到git上面，https://github.com/wacxt/pretty_ssm ，下面开始
@@ -514,8 +514,6 @@ druid.pool.size.init=3
 **跑不起来的看这里**
 注意：如果本地没有安装redis的，个人建议安装，这确实是个好东西，如果实在不想安装，那么就不要导入spring-redis.xml，UserServiceImpl文件中的getUserList中，去掉跟redis相关的代码。
 
-(8)这个项目只是想当作一个脚手架，以后需要可以直接使用，而且是为了后面搭建一个高可用的分布式架构做准备，所以这里牵扯到了redis，接下来将讲解redis缓存和redis sentinel高可用方案，而且是基于docker来实现
+(8)这个项目只是想当作一个脚手架，以后需要可以直接使用，而且是为了后面搭建一个高可用的分布式架构做准备，所以这里牵扯到了redis，接下来将讲解redis缓存和redis sentinel高可用方案，而且是基于docker来实现，链接如下：[Redis Sentinel高可用方案（基于docker）](http://blog.csdn.net/KilluaZoldyck/article/details/72720953)
 
-**最后再放一下代码地址，以防有些人找不到**
-[ssm框架代码](https://github.com/wacxt/pretty_ssm)
 
