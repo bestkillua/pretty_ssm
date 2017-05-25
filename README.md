@@ -5,7 +5,8 @@
 4，Druid
 
 该教程写完可以当作一个脚手架以后直接使用，很方便，同时会讲解一下缓存方案，为下面搭建一个分布式高可用的系统先做点铺垫，源码以及全部上传到git上面，https://github.com/wacxt/pretty_ssm ，下面开始
-（1）首先是项目结构：
+（1）首先是项目结构和程序架构图：
+![这里写图片描述](http://img.blog.csdn.net/20170525085527668?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS2lsbHVhWm9sZHljaw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![这里写图片描述](http://img.blog.csdn.net/20170524233844898?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvS2lsbHVhWm9sZHljaw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 (2)pom.xml
